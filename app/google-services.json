@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1060870810125",
+    "project_id": "circulima-4b0cd",
+    "storage_bucket": "circulima-4b0cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060870810125:android:18f01bee61e53c6ed78344",
+        "android_client_info": {
+          "package_name": "pe.edu.ulima.circulima_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060870810125-8i6huq5c2rg918m74rn1gu5e0mjsg1rc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.ulima.circulima_v1",
+            "certificate_hash": "935c59c22c6c2bc58cbf6f70ce2a3eedadc60cee"
+          }
+        },
+        {
+          "client_id": "1060870810125-hcu4ep955d4sog27rip75ebkk57b1toc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.ulima.circulima_v1",
+            "certificate_hash": "99c0d187e8a8dbb07f64cb5c01b3ac1e3c8503bf"
+          }
+        },
+        {
+          "client_id": "1060870810125-s0ga087mte14e78hqin3orvgnaip11gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFaiUzGZV60gK5xDfb2fS0a2E8ZjQQjQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060870810125-s0ga087mte14e78hqin3orvgnaip11gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

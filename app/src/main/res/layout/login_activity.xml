@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#f46f20"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/logo">
+
+        </ImageView>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittext2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="115dp"
+        android:text="Bienvenido a Circulima"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittext2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="13dp"
+        android:text="Codigo"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="44dp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="233dp"
+        android:text="Ingresar" />
+
+    <ImageView
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="170dp"
+        android:src="@drawable/google">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="165dp"
+
+        android:backgroundTint="@color/white"
+        android:text="Entrar con Google"
+        android:textColor="#302E2E" />
+
+
+</RelativeLayout>
